@@ -4,14 +4,27 @@ const { get } = require('http');
 const app = express();
 
 app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log('Hello from the middleware 👋');
+  next();
+});
+
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString();
+  next();
+});
+
 const tours = JSON.parse(
   fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`)
 );
 
 const getAllTours = (req, res) => {
+  console.log(req.requestTime);
   res.status(200).json({
     status: 'success',
     result: tours.length,
+    requestedAt: req.requestTime,
     data: {
       tours: tours,
     },
@@ -93,6 +106,13 @@ const deleteTour = (req, res) => {
 // app.delete('/api/v1/tours/:id', deleteTour);
 
 app.route('/api/v1/tours').get(getAllTours).post(createTour);
+
+// when the above url entered next middleware will be executed because the route occurs first and by it send a response it end the request-response cycle and the next middleware will not be executed
+// app.use((req, res, next) => {
+//   console.log('Hello from the middleware 👋');
+//   next();
+// });
+
 app
   .route('/api/v1/tours/:id')
   .get(getTour)
