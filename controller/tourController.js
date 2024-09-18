@@ -4,12 +4,12 @@ exports.getAllTours = async (req, res) => {
   try {
     console.log(req.query);
     //! BUILD QUERY
-    //! 1) Filtering
+    //! 1A) Filtering
     const queryObj = { ...req.query };
     const excludedFields = ['page', 'sort', 'limit'];
     excludedFields.forEach((el) => delete queryObj[el]);
 
-    //! 2) Advanced Filtering
+    //! 1B) Advanced Filtering
     //for implementing gte, gt, lte, lt
     // { difficulty: 'easy', duration: { $gte: 5 } } => required query
     // { difficulty: 'easy', duration: { gte: 5 } } => query from user which is almost same as required query
@@ -18,7 +18,18 @@ exports.getAllTours = async (req, res) => {
     queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
     // console.log(JSON.parse(queryStr));
 
-    const query = Tour.find(JSON.parse(queryStr));
+    let query = Tour.find(JSON.parse(queryStr));
+
+    //! 2) SORTING
+    if (req.query.sort) {
+      // const sortBy = req.query.sort.split(',').join(' ');
+      query = query.sort(req.query.sort);
+      //use sort=-price for descending order
+    } else {
+      //adding default sorting by createdAt in descending order
+      query = query.sort('-createdAt');
+    }
+
     //! EXECUTE QUERY
     const tours = await query;
 
