@@ -1,4 +1,5 @@
 const Tour = require('../models/tourModel');
+const APIFeatures = require('../utils/apiFeatures');
 
 exports.aliasTopTours = (req, res, next) => {
   req.query.limit = '5';
@@ -9,58 +10,14 @@ exports.aliasTopTours = (req, res, next) => {
 
 exports.getAllTours = async (req, res) => {
   try {
-    console.log(req.query);
-    //! BUILD QUERY
-    //! 1A) Filtering
-    const queryObj = { ...req.query };
-    const excludedFields = ['page', 'sort', 'limit'];
-    excludedFields.forEach((el) => delete queryObj[el]);
-
-    //! 1B) Advanced Filtering
-    //for implementing gte, gt, lte, lt
-    // { difficulty: 'easy', duration: { $gte: 5 } } => required query
-    // { difficulty: 'easy', duration: { gte: 5 } } => query from user which is almost same as required query
-
-    let queryStr = JSON.stringify(queryObj);
-    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
-    // console.log(JSON.parse(queryStr));
-
-    let query = Tour.find(JSON.parse(queryStr));
-
-    //! 2) SORTING
-    if (req.query.sort) {
-      const sortBy = req.query.sort.split(',').join(' ');
-      query = query.sort(sortBy);
-      //use sort=-price for descending order
-    } else {
-      //adding default sorting by createdAt in descending order
-      query = query.sort('-createdAt');
-    }
-
-    //! 3) FIELD LIMITING
-    if (req.query.fields) {
-      console.log(req.query.fields);
-      const fields = req.query.fields.split(',').join(' ');
-      console.log(fields);
-      query = query.select(fields);
-    } else {
-      query = query.select('-__v'); // minus for excluding
-    }
-
-    //! 4) PAGINATION
-    const page = req.query.page * 1 || 1;
-    const limit = req.query.limit * 1 || 100;
-    const skip = (page - 1) * limit;
-
-    if (req.query.page) {
-      const docCount = await Tour.countDocuments();
-      if (skip >= docCount) throw new Error('This page does not exist');
-    }
-    query = query.skip(skip).limit(limit);
-
-    // console.log(query);
-    //! EXECUTE QUERY
-    const tours = await query;
+    // console.log(req.query);
+    // EXECUTE QUERY
+    const features = new APIFeatures(Tour.find(), req.query)
+      .filter()
+      .sort()
+      .limitFields()
+      .paginate();
+    const tours = await features.query;
 
     res.status(200).json({
       status: 'success',
