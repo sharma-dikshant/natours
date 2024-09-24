@@ -105,6 +105,16 @@ tourSchema.post(/^find/, function (docs, next) {
   next();
 });
 
+// AGGREGRATION MIDDLEWARE
+
+tourSchema.pre('aggregate', function (next) {
+  // this.pipeline() will give us the array of all the stages in the aggregation pipeline
+  // we can add a new stage at the beginning of the pipeline
+  this.pipeline().unshift({ $match: { secretTour: { $ne: true } } });
+  console.log(this.pipeline());
+  next();
+});
+
 const Tour = mongoose.model('Tour', tourSchema);
 
 module.exports = Tour;
