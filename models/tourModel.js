@@ -55,6 +55,10 @@ const tourSchema = new mongoose.Schema(
       select: false,
     },
     startDates: [Date],
+    secretTour: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     toJSON: { virtuals: true }, // each time data is outputted as JSON, virtual properties will be included
@@ -84,6 +88,22 @@ tourSchema.pre('save', function (next) {
 //   console.log(doc);
 //   next();
 // });
+
+// QUERY MIDDLEWARE
+
+// tourSchema.pre('find', function (next) {
+tourSchema.pre(/^find/, function (next) {
+  // this middleware will run before any query that starts with find
+  // Here this refers to the query object on which we can chain other methods
+  this.start = Date.now();
+  this.find({ secretTour: { $ne: true } });
+  next();
+});
+
+tourSchema.post(/^find/, function (docs, next) {
+  console.log(`Query took ${Date.now() - this.start} milliseconds`);
+  next();
+});
 
 const Tour = mongoose.model('Tour', tourSchema);
 
