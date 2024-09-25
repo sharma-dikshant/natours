@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "dikshant sharma",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "express": "^4.21.0",
     "mongoose": "^8.6.2",
     "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
     "slugify": "^1.6.6",
     "validator": "^13.12.0"
   },
