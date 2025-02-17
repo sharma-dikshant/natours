@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 0,
+    "name": "The Route 66 American Road Trip",
+    "duration": 12,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 92,
+    "price": 721,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Route 66 American Road Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-1-cover.jpg",
+    "images": [
+      "tour-1-1.jpg",
+      "tour-1-2.jpg",
+      "tour-1-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-07,10:00",
+      "2025-03-01,10:00",
+      "2025-11-07,10:00"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "The Santorini Sunset Tour",
+    "duration": 9,
+    "maxGroupSize": 19,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 84,
+    "price": 2963,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through The Santorini Sunset Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-2-cover.jpg",
+    "images": [
+      "tour-2-1.jpg",
+      "tour-2-2.jpg",
+      "tour-2-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-01,10:00",
+      "2025-04-01,10:00",
+      "2025-12-22,10:00"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The Amazon Rainforest Journey",
+    "duration": 4,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 60,
+    "price": 652,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Amazon Rainforest Journey. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-3-cover.jpg",
+    "images": [
+      "tour-3-1.jpg",
+      "tour-3-2.jpg",
+      "tour-3-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-13,10:00",
+      "2025-12-06,10:00",
+      "2025-07-13,10:00"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Norway Lofoten Islands Tour",
+    "duration": 6,
+    "maxGroupSize": 21,
+    "difficulty": "easy",
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 68,
+    "price": 919,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Norway Lofoten Islands Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-4-cover.jpg",
+    "images": [
+      "tour-4-1.jpg",
+      "tour-4-2.jpg",
+      "tour-4-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-04,10:00",
+      "2025-08-31,10:00",
+      "2025-06-23,10:00"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "The Canadian Rockies Expedition",
+    "duration": 4,
+    "maxGroupSize": 29,
+    "difficulty": "medium",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 88,
+    "price": 2909,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Canadian Rockies Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-5-cover.jpg",
+    "images": [
+      "tour-5-1.jpg",
+      "tour-5-2.jpg",
+      "tour-5-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-28,10:00",
+      "2025-04-14,10:00",
+      "2025-05-01,10:00"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vietnam's Ha Long Bay Kayaking",
+    "duration": 14,
+    "maxGroupSize": 14,
+    "difficulty": "medium",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 34,
+    "price": 2884,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through Vietnam's Ha Long Bay Kayaking. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-6-cover.jpg",
+    "images": [
+      "tour-6-1.jpg",
+      "tour-6-2.jpg",
+      "tour-6-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-01,10:00",
+      "2025-08-26,10:00",
+      "2025-03-09,10:00"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The Iceland Blue Lagoon Retreat",
+    "duration": 5,
+    "maxGroupSize": 19,
+    "difficulty": "easy",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 51,
+    "price": 1136,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Iceland Blue Lagoon Retreat. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-7-cover.jpg",
+    "images": [
+      "tour-7-1.jpg",
+      "tour-7-2.jpg",
+      "tour-7-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-08,10:00",
+      "2025-05-11,10:00",
+      "2025-07-16,10:00"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Grand Canyon Explorer",
+    "duration": 14,
+    "maxGroupSize": 25,
+    "difficulty": "medium",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 55,
+    "price": 2055,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Grand Canyon Explorer. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-8-cover.jpg",
+    "images": [
+      "tour-8-1.jpg",
+      "tour-8-2.jpg",
+      "tour-8-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-30,10:00",
+      "2025-09-20,10:00",
+      "2025-10-11,10:00"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Trans-Siberian Railway Journey",
+    "duration": 7,
+    "maxGroupSize": 27,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 81,
+    "price": 405,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Trans-Siberian Railway Journey. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-9-cover.jpg",
+    "images": [
+      "tour-9-1.jpg",
+      "tour-9-2.jpg",
+      "tour-9-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-11,10:00",
+      "2025-05-26,10:00",
+      "2025-02-27,10:00"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mexico's Ancient Pyramids Tour",
+    "duration": 11,
+    "maxGroupSize": 24,
+    "difficulty": "medium",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 19,
+    "price": 887,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through Mexico's Ancient Pyramids Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-10-cover.jpg",
+    "images": [
+      "tour-10-1.jpg",
+      "tour-10-2.jpg",
+      "tour-10-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-05,10:00",
+      "2025-07-05,10:00",
+      "2025-02-08,10:00"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "The Borneo Jungle Expedition",
+    "duration": 7,
+    "maxGroupSize": 20,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 27,
+    "price": 1008,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The Borneo Jungle Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-11-cover.jpg",
+    "images": [
+      "tour-11-1.jpg",
+      "tour-11-2.jpg",
+      "tour-11-3.jpg"
+    ],
+    "startDates": [
+      "2025-04-19,10:00",
+      "2025-12-27,10:00",
+      "2025-07-18,10:00"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Peru Sacred Valley Exploration",
+    "duration": 3,
+    "maxGroupSize": 9,
+    "difficulty": "medium",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 75,
+    "price": 2927,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Peru Sacred Valley Exploration. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-12-cover.jpg",
+    "images": [
+      "tour-12-1.jpg",
+      "tour-12-2.jpg",
+      "tour-12-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-14,10:00",
+      "2025-06-16,10:00",
+      "2025-06-19,10:00"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Scottish Highlands Hiking",
+    "duration": 6,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 58,
+    "price": 1910,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through Scottish Highlands Hiking. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-13-cover.jpg",
+    "images": [
+      "tour-13-1.jpg",
+      "tour-13-2.jpg",
+      "tour-13-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-26,10:00",
+      "2025-04-24,10:00",
+      "2025-11-29,10:00"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "The Malaysian Borneo Orangutan Tour",
+    "duration": 12,
+    "maxGroupSize": 21,
+    "difficulty": "medium",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 12,
+    "price": 2691,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Malaysian Borneo Orangutan Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-14-cover.jpg",
+    "images": [
+      "tour-14-1.jpg",
+      "tour-14-2.jpg",
+      "tour-14-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-12,10:00",
+      "2025-05-06,10:00",
+      "2025-05-23,10:00"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Vietnam's Ha Long Bay Kayaking",
+    "duration": 4,
+    "maxGroupSize": 9,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 21,
+    "price": 2242,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through Vietnam's Ha Long Bay Kayaking. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-15-cover.jpg",
+    "images": [
+      "tour-15-1.jpg",
+      "tour-15-2.jpg",
+      "tour-15-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-10,10:00",
+      "2025-09-15,10:00",
+      "2025-06-25,10:00"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Madagascar Wildlife Safari",
+    "duration": 6,
+    "maxGroupSize": 27,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 62,
+    "price": 956,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Madagascar Wildlife Safari. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-16-cover.jpg",
+    "images": [
+      "tour-16-1.jpg",
+      "tour-16-2.jpg",
+      "tour-16-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-22,10:00",
+      "2025-08-16,10:00",
+      "2025-08-29,10:00"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "The Cambodia Angkor Wat Tour",
+    "duration": 5,
+    "maxGroupSize": 24,
+    "difficulty": "medium",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 88,
+    "price": 2765,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Cambodia Angkor Wat Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-17-cover.jpg",
+    "images": [
+      "tour-17-1.jpg",
+      "tour-17-2.jpg",
+      "tour-17-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-12,10:00",
+      "2025-11-14,10:00",
+      "2025-06-17,10:00"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The Japanese Samurai Experience",
+    "duration": 11,
+    "maxGroupSize": 26,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 34,
+    "price": 2159,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Japanese Samurai Experience. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-18-cover.jpg",
+    "images": [
+      "tour-18-1.jpg",
+      "tour-18-2.jpg",
+      "tour-18-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-15,10:00",
+      "2025-12-07,10:00",
+      "2025-04-10,10:00"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "The Indian Himalayas Adventure",
+    "duration": 8,
+    "maxGroupSize": 23,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 89,
+    "price": 2430,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Indian Himalayas Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-19-cover.jpg",
+    "images": [
+      "tour-19-1.jpg",
+      "tour-19-2.jpg",
+      "tour-19-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-11,10:00",
+      "2025-03-05,10:00",
+      "2025-07-03,10:00"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "The Cambodia Angkor Wat Tour",
+    "duration": 7,
+    "maxGroupSize": 9,
+    "difficulty": "medium",
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 85,
+    "price": 731,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Cambodia Angkor Wat Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-20-cover.jpg",
+    "images": [
+      "tour-20-1.jpg",
+      "tour-20-2.jpg",
+      "tour-20-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-02,10:00",
+      "2025-07-04,10:00",
+      "2025-05-29,10:00"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "The Nile River Cruise",
+    "duration": 6,
+    "maxGroupSize": 13,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 92,
+    "price": 1715,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Nile River Cruise. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-21-cover.jpg",
+    "images": [
+      "tour-21-1.jpg",
+      "tour-21-2.jpg",
+      "tour-21-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-20,10:00",
+      "2025-10-04,10:00",
+      "2025-07-08,10:00"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "The Norwegian Fjords Exploration",
+    "duration": 4,
+    "maxGroupSize": 9,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 68,
+    "price": 2505,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Norwegian Fjords Exploration. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-22-cover.jpg",
+    "images": [
+      "tour-22-1.jpg",
+      "tour-22-2.jpg",
+      "tour-22-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-17,10:00",
+      "2025-05-05,10:00",
+      "2025-07-08,10:00"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "The African Serengeti Hot Air Balloon Ride",
+    "duration": 14,
+    "maxGroupSize": 24,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 99,
+    "price": 582,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The African Serengeti Hot Air Balloon Ride. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-23-cover.jpg",
+    "images": [
+      "tour-23-1.jpg",
+      "tour-23-2.jpg",
+      "tour-23-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-23,10:00",
+      "2025-05-05,10:00",
+      "2025-04-05,10:00"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "The Norway Lofoten Islands Tour",
+    "duration": 12,
+    "maxGroupSize": 16,
+    "difficulty": "easy",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 69,
+    "price": 2817,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Norway Lofoten Islands Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-24-cover.jpg",
+    "images": [
+      "tour-24-1.jpg",
+      "tour-24-2.jpg",
+      "tour-24-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-16,10:00",
+      "2025-05-03,10:00",
+      "2025-08-05,10:00"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "The Scottish Isle Hopping",
+    "duration": 11,
+    "maxGroupSize": 11,
+    "difficulty": "medium",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 10,
+    "price": 1331,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Scottish Isle Hopping. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-25-cover.jpg",
+    "images": [
+      "tour-25-1.jpg",
+      "tour-25-2.jpg",
+      "tour-25-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-15,10:00",
+      "2025-09-08,10:00",
+      "2025-07-21,10:00"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Mount Everest Base Camp",
+    "duration": 4,
+    "maxGroupSize": 25,
+    "difficulty": "medium",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 72,
+    "price": 642,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through Mount Everest Base Camp. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-26-cover.jpg",
+    "images": [
+      "tour-26-1.jpg",
+      "tour-26-2.jpg",
+      "tour-26-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-22,10:00",
+      "2025-03-07,10:00",
+      "2025-10-17,10:00"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "The Scottish Isle Hopping",
+    "duration": 3,
+    "maxGroupSize": 19,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 23,
+    "price": 1071,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Scottish Isle Hopping. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-27-cover.jpg",
+    "images": [
+      "tour-27-1.jpg",
+      "tour-27-2.jpg",
+      "tour-27-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-19,10:00",
+      "2025-04-23,10:00",
+      "2025-10-12,10:00"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "The Alaskan Glaciers Tour",
+    "duration": 11,
+    "maxGroupSize": 30,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 19,
+    "price": 2516,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Alaskan Glaciers Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-28-cover.jpg",
+    "images": [
+      "tour-28-1.jpg",
+      "tour-28-2.jpg",
+      "tour-28-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-27,10:00",
+      "2025-07-05,10:00",
+      "2025-09-14,10:00"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "The Greek Island Hopping",
+    "duration": 14,
+    "maxGroupSize": 26,
+    "difficulty": "medium",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 89,
+    "price": 2468,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through The Greek Island Hopping. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-29-cover.jpg",
+    "images": [
+      "tour-29-1.jpg",
+      "tour-29-2.jpg",
+      "tour-29-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-07,10:00",
+      "2025-10-10,10:00",
+      "2025-11-30,10:00"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The Norwegian Fjords Exploration",
+    "duration": 10,
+    "maxGroupSize": 11,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 94,
+    "price": 1620,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Norwegian Fjords Exploration. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-30-cover.jpg",
+    "images": [
+      "tour-30-1.jpg",
+      "tour-30-2.jpg",
+      "tour-30-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-01,10:00",
+      "2025-07-13,10:00",
+      "2025-08-20,10:00"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "The Indian Himalayas Adventure",
+    "duration": 7,
+    "maxGroupSize": 22,
+    "difficulty": "medium",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 74,
+    "price": 2310,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Indian Himalayas Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-31-cover.jpg",
+    "images": [
+      "tour-31-1.jpg",
+      "tour-31-2.jpg",
+      "tour-31-3.jpg"
+    ],
+    "startDates": [
+      "2025-04-05,10:00",
+      "2025-08-15,10:00",
+      "2025-03-02,10:00"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "The Rocky Mountains National Park",
+    "duration": 3,
+    "maxGroupSize": 19,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 29,
+    "price": 2753,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Rocky Mountains National Park. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-32-cover.jpg",
+    "images": [
+      "tour-32-1.jpg",
+      "tour-32-2.jpg",
+      "tour-32-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-29,10:00",
+      "2025-03-28,10:00",
+      "2025-03-22,10:00"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "The Ancient Egypt Discovery",
+    "duration": 4,
+    "maxGroupSize": 17,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 55,
+    "price": 2389,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Ancient Egypt Discovery. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-33-cover.jpg",
+    "images": [
+      "tour-33-1.jpg",
+      "tour-33-2.jpg",
+      "tour-33-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-29,10:00",
+      "2025-08-04,10:00",
+      "2025-10-16,10:00"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "The Swiss Alps Skiing Tour",
+    "duration": 6,
+    "maxGroupSize": 21,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 15,
+    "price": 2621,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The Swiss Alps Skiing Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-34-cover.jpg",
+    "images": [
+      "tour-34-1.jpg",
+      "tour-34-2.jpg",
+      "tour-34-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-03,10:00",
+      "2025-04-05,10:00",
+      "2025-12-17,10:00"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "The Amazon Rainforest Journey",
+    "duration": 8,
+    "maxGroupSize": 15,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 43,
+    "price": 2105,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Amazon Rainforest Journey. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-35-cover.jpg",
+    "images": [
+      "tour-35-1.jpg",
+      "tour-35-2.jpg",
+      "tour-35-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-15,10:00",
+      "2025-06-06,10:00",
+      "2025-07-12,10:00"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "The Gal\u00e1pagos Snorkeling Trip",
+    "duration": 10,
+    "maxGroupSize": 21,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 60,
+    "price": 606,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Gal\u00e1pagos Snorkeling Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-36-cover.jpg",
+    "images": [
+      "tour-36-1.jpg",
+      "tour-36-2.jpg",
+      "tour-36-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-19,10:00",
+      "2025-08-02,10:00",
+      "2025-02-12,10:00"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Japan's Cherry Blossom Tour",
+    "duration": 15,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 10,
+    "price": 1116,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through Japan's Cherry Blossom Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-37-cover.jpg",
+    "images": [
+      "tour-37-1.jpg",
+      "tour-37-2.jpg",
+      "tour-37-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-06,10:00",
+      "2025-02-04,10:00",
+      "2025-08-01,10:00"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "The Zanzibar Beach & Safari",
+    "duration": 3,
+    "maxGroupSize": 14,
+    "difficulty": "medium",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 63,
+    "price": 2545,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through The Zanzibar Beach & Safari. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-38-cover.jpg",
+    "images": [
+      "tour-38-1.jpg",
+      "tour-38-2.jpg",
+      "tour-38-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-19,10:00",
+      "2025-02-15,10:00",
+      "2025-09-24,10:00"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Grand European Road Trip",
+    "duration": 8,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 76,
+    "price": 2346,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through Grand European Road Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-39-cover.jpg",
+    "images": [
+      "tour-39-1.jpg",
+      "tour-39-2.jpg",
+      "tour-39-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-08,10:00",
+      "2025-08-10,10:00",
+      "2025-04-14,10:00"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "The Canadian Aurora Borealis",
+    "duration": 12,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 68,
+    "price": 1894,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Canadian Aurora Borealis. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-40-cover.jpg",
+    "images": [
+      "tour-40-1.jpg",
+      "tour-40-2.jpg",
+      "tour-40-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-30,10:00",
+      "2025-07-08,10:00",
+      "2025-11-23,10:00"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "The Sahara Desert Camel Ride",
+    "duration": 8,
+    "maxGroupSize": 22,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 10,
+    "price": 1901,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Sahara Desert Camel Ride. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-41-cover.jpg",
+    "images": [
+      "tour-41-1.jpg",
+      "tour-41-2.jpg",
+      "tour-41-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-12,10:00",
+      "2025-09-12,10:00",
+      "2025-03-11,10:00"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "The Moroccan Blue City Tour",
+    "duration": 5,
+    "maxGroupSize": 26,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 31,
+    "price": 2711,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through The Moroccan Blue City Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-42-cover.jpg",
+    "images": [
+      "tour-42-1.jpg",
+      "tour-42-2.jpg",
+      "tour-42-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-01,10:00",
+      "2025-11-02,10:00",
+      "2025-07-06,10:00"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "The Gal\u00e1pagos Snorkeling Trip",
+    "duration": 5,
+    "maxGroupSize": 15,
+    "difficulty": "easy",
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 93,
+    "price": 2687,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Gal\u00e1pagos Snorkeling Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-43-cover.jpg",
+    "images": [
+      "tour-43-1.jpg",
+      "tour-43-2.jpg",
+      "tour-43-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-13,10:00",
+      "2025-04-25,10:00",
+      "2025-11-22,10:00"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "The Borneo Jungle Expedition",
+    "duration": 4,
+    "maxGroupSize": 19,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 75,
+    "price": 2801,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Borneo Jungle Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-44-cover.jpg",
+    "images": [
+      "tour-44-1.jpg",
+      "tour-44-2.jpg",
+      "tour-44-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-23,10:00",
+      "2025-11-01,10:00",
+      "2025-12-17,10:00"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "The Java Volcano Hike",
+    "duration": 13,
+    "maxGroupSize": 9,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 36,
+    "price": 2376,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Java Volcano Hike. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-45-cover.jpg",
+    "images": [
+      "tour-45-1.jpg",
+      "tour-45-2.jpg",
+      "tour-45-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-15,10:00",
+      "2025-02-20,10:00",
+      "2025-09-21,10:00"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "The Amazon Rainforest Canopy Walk",
+    "duration": 5,
+    "maxGroupSize": 29,
+    "difficulty": "medium",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 55,
+    "price": 579,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through The Amazon Rainforest Canopy Walk. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-46-cover.jpg",
+    "images": [
+      "tour-46-1.jpg",
+      "tour-46-2.jpg",
+      "tour-46-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-09,10:00",
+      "2025-03-21,10:00",
+      "2025-12-14,10:00"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "The Hawaiian Surfing Retreat",
+    "duration": 7,
+    "maxGroupSize": 17,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 71,
+    "price": 305,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Hawaiian Surfing Retreat. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-47-cover.jpg",
+    "images": [
+      "tour-47-1.jpg",
+      "tour-47-2.jpg",
+      "tour-47-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-01,10:00",
+      "2025-05-02,10:00",
+      "2025-05-18,10:00"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Mexico's Ancient Pyramids Tour",
+    "duration": 7,
+    "maxGroupSize": 11,
+    "difficulty": "easy",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 19,
+    "price": 2775,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through Mexico's Ancient Pyramids Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-48-cover.jpg",
+    "images": [
+      "tour-48-1.jpg",
+      "tour-48-2.jpg",
+      "tour-48-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-09,10:00",
+      "2025-03-26,10:00",
+      "2025-05-20,10:00"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Costa Rica Rainforest Adventure",
+    "duration": 8,
+    "maxGroupSize": 17,
+    "difficulty": "medium",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 50,
+    "price": 2903,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through Costa Rica Rainforest Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-49-cover.jpg",
+    "images": [
+      "tour-49-1.jpg",
+      "tour-49-2.jpg",
+      "tour-49-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-23,10:00",
+      "2025-09-12,10:00",
+      "2025-11-13,10:00"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "The Mongolian Nomadic Journey",
+    "duration": 12,
+    "maxGroupSize": 18,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 88,
+    "price": 1863,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Mongolian Nomadic Journey. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-50-cover.jpg",
+    "images": [
+      "tour-50-1.jpg",
+      "tour-50-2.jpg",
+      "tour-50-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-11,10:00",
+      "2025-07-21,10:00",
+      "2025-02-24,10:00"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "The Tuscany Vineyard Experience",
+    "duration": 5,
+    "maxGroupSize": 28,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 67,
+    "price": 1845,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Tuscany Vineyard Experience. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-51-cover.jpg",
+    "images": [
+      "tour-51-1.jpg",
+      "tour-51-2.jpg",
+      "tour-51-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-18,10:00",
+      "2025-08-18,10:00",
+      "2025-03-05,10:00"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "The Italian Amalfi Coast Walk",
+    "duration": 14,
+    "maxGroupSize": 24,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 60,
+    "price": 1849,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through The Italian Amalfi Coast Walk. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-52-cover.jpg",
+    "images": [
+      "tour-52-1.jpg",
+      "tour-52-2.jpg",
+      "tour-52-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-29,10:00",
+      "2025-03-18,10:00",
+      "2025-03-02,10:00"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "The Norway Midnight Sun Tour",
+    "duration": 13,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 38,
+    "price": 404,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Norway Midnight Sun Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-53-cover.jpg",
+    "images": [
+      "tour-53-1.jpg",
+      "tour-53-2.jpg",
+      "tour-53-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-26,10:00",
+      "2025-02-28,10:00",
+      "2025-03-27,10:00"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "The Grand Canyon Explorer",
+    "duration": 3,
+    "maxGroupSize": 20,
+    "difficulty": "medium",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 58,
+    "price": 2974,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Grand Canyon Explorer. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-54-cover.jpg",
+    "images": [
+      "tour-54-1.jpg",
+      "tour-54-2.jpg",
+      "tour-54-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-19,10:00",
+      "2025-02-25,10:00",
+      "2025-12-03,10:00"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "The Pacific Crest Trail Adventure",
+    "duration": 10,
+    "maxGroupSize": 13,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 88,
+    "price": 2086,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Pacific Crest Trail Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-55-cover.jpg",
+    "images": [
+      "tour-55-1.jpg",
+      "tour-55-2.jpg",
+      "tour-55-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-05,10:00",
+      "2025-02-09,10:00",
+      "2025-07-22,10:00"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "The Canadian Aurora Borealis",
+    "duration": 14,
+    "maxGroupSize": 22,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 67,
+    "price": 313,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Canadian Aurora Borealis. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-56-cover.jpg",
+    "images": [
+      "tour-56-1.jpg",
+      "tour-56-2.jpg",
+      "tour-56-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-06,10:00",
+      "2025-11-25,10:00",
+      "2025-06-30,10:00"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "The Trans-Siberian Railway Journey",
+    "duration": 9,
+    "maxGroupSize": 17,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 75,
+    "price": 2359,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Trans-Siberian Railway Journey. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-57-cover.jpg",
+    "images": [
+      "tour-57-1.jpg",
+      "tour-57-2.jpg",
+      "tour-57-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-11,10:00",
+      "2025-07-04,10:00",
+      "2025-11-16,10:00"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Machu Picchu Hiking Tour",
+    "duration": 5,
+    "maxGroupSize": 21,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 30,
+    "price": 869,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through Machu Picchu Hiking Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-58-cover.jpg",
+    "images": [
+      "tour-58-1.jpg",
+      "tour-58-2.jpg",
+      "tour-58-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-17,10:00",
+      "2025-03-12,10:00",
+      "2025-10-08,10:00"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "The Dolomites Mountain Hike",
+    "duration": 11,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 32,
+    "price": 2262,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Dolomites Mountain Hike. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-59-cover.jpg",
+    "images": [
+      "tour-59-1.jpg",
+      "tour-59-2.jpg",
+      "tour-59-3.jpg"
+    ],
+    "startDates": [
+      "2025-04-09,10:00",
+      "2025-04-24,10:00",
+      "2025-07-01,10:00"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Great Wall of China Expedition",
+    "duration": 12,
+    "maxGroupSize": 13,
+    "difficulty": "easy",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 52,
+    "price": 362,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through Great Wall of China Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-60-cover.jpg",
+    "images": [
+      "tour-60-1.jpg",
+      "tour-60-2.jpg",
+      "tour-60-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-27,10:00",
+      "2025-11-18,10:00",
+      "2025-05-02,10:00"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "African Safari Adventure",
+    "duration": 15,
+    "maxGroupSize": 21,
+    "difficulty": "easy",
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 42,
+    "price": 2875,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through African Safari Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-61-cover.jpg",
+    "images": [
+      "tour-61-1.jpg",
+      "tour-61-2.jpg",
+      "tour-61-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-20,10:00",
+      "2025-09-03,10:00",
+      "2025-10-10,10:00"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "New Zealand's Fiordland Discovery",
+    "duration": 4,
+    "maxGroupSize": 15,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 61,
+    "price": 692,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through New Zealand's Fiordland Discovery. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-62-cover.jpg",
+    "images": [
+      "tour-62-1.jpg",
+      "tour-62-2.jpg",
+      "tour-62-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-19,10:00",
+      "2025-09-06,10:00",
+      "2025-08-07,10:00"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "The Swiss Alps Skiing Tour",
+    "duration": 14,
+    "maxGroupSize": 12,
+    "difficulty": "medium",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 66,
+    "price": 2478,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Swiss Alps Skiing Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-63-cover.jpg",
+    "images": [
+      "tour-63-1.jpg",
+      "tour-63-2.jpg",
+      "tour-63-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-28,10:00",
+      "2025-07-03,10:00",
+      "2025-08-07,10:00"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Grand European Road Trip",
+    "duration": 7,
+    "maxGroupSize": 28,
+    "difficulty": "easy",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 13,
+    "price": 1743,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through Grand European Road Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-64-cover.jpg",
+    "images": [
+      "tour-64-1.jpg",
+      "tour-64-2.jpg",
+      "tour-64-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-04,10:00",
+      "2025-12-16,10:00",
+      "2025-12-19,10:00"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "South African Wine Tour",
+    "duration": 11,
+    "maxGroupSize": 26,
+    "difficulty": "medium",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 31,
+    "price": 1806,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through South African Wine Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-65-cover.jpg",
+    "images": [
+      "tour-65-1.jpg",
+      "tour-65-2.jpg",
+      "tour-65-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-19,10:00",
+      "2025-07-12,10:00",
+      "2025-06-16,10:00"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "The Norway Midnight Sun Tour",
+    "duration": 6,
+    "maxGroupSize": 14,
+    "difficulty": "easy",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 55,
+    "price": 1574,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through The Norway Midnight Sun Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-66-cover.jpg",
+    "images": [
+      "tour-66-1.jpg",
+      "tour-66-2.jpg",
+      "tour-66-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-13,10:00",
+      "2025-04-21,10:00",
+      "2025-09-03,10:00"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "African Safari Adventure",
+    "duration": 7,
+    "maxGroupSize": 15,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 14,
+    "price": 967,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through African Safari Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-67-cover.jpg",
+    "images": [
+      "tour-67-1.jpg",
+      "tour-67-2.jpg",
+      "tour-67-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-14,10:00",
+      "2025-05-28,10:00",
+      "2025-04-17,10:00"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "The Egypt Red Sea Diving",
+    "duration": 14,
+    "maxGroupSize": 29,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 66,
+    "price": 1816,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through The Egypt Red Sea Diving. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-68-cover.jpg",
+    "images": [
+      "tour-68-1.jpg",
+      "tour-68-2.jpg",
+      "tour-68-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-23,10:00",
+      "2025-04-18,10:00",
+      "2025-10-13,10:00"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "The Dubrovnik Medieval Walk",
+    "duration": 14,
+    "maxGroupSize": 18,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 89,
+    "price": 2535,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Dubrovnik Medieval Walk. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-69-cover.jpg",
+    "images": [
+      "tour-69-1.jpg",
+      "tour-69-2.jpg",
+      "tour-69-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-30,10:00",
+      "2025-07-02,10:00",
+      "2025-06-07,10:00"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "The Everest Helicopter Tour",
+    "duration": 9,
+    "maxGroupSize": 9,
+    "difficulty": "medium",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 22,
+    "price": 2455,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Everest Helicopter Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-70-cover.jpg",
+    "images": [
+      "tour-70-1.jpg",
+      "tour-70-2.jpg",
+      "tour-70-3.jpg"
+    ],
+    "startDates": [
+      "2025-04-01,10:00",
+      "2025-05-29,10:00",
+      "2025-02-17,10:00"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Andes Mountain Hiking",
+    "duration": 12,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 94,
+    "price": 1101,
+    "summary": "From deserts to glaciers, embark on the ultimate adventure.",
+    "description": "Join us for an unforgettable journey through Andes Mountain Hiking. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-71-cover.jpg",
+    "images": [
+      "tour-71-1.jpg",
+      "tour-71-2.jpg",
+      "tour-71-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-20,10:00",
+      "2025-07-20,10:00",
+      "2025-05-25,10:00"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "The Alaska Dog Sledding Adventure",
+    "duration": 7,
+    "maxGroupSize": 19,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 13,
+    "price": 613,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Alaska Dog Sledding Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-72-cover.jpg",
+    "images": [
+      "tour-72-1.jpg",
+      "tour-72-2.jpg",
+      "tour-72-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-16,10:00",
+      "2025-11-07,10:00",
+      "2025-11-18,10:00"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "The Caribbean Sailing Expedition",
+    "duration": 13,
+    "maxGroupSize": 14,
+    "difficulty": "easy",
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 91,
+    "price": 2195,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Caribbean Sailing Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-73-cover.jpg",
+    "images": [
+      "tour-73-1.jpg",
+      "tour-73-2.jpg",
+      "tour-73-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-23,10:00",
+      "2025-03-10,10:00",
+      "2025-02-15,10:00"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Peruvian Amazon Discovery",
+    "duration": 3,
+    "maxGroupSize": 8,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 43,
+    "price": 2888,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through Peruvian Amazon Discovery. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-74-cover.jpg",
+    "images": [
+      "tour-74-1.jpg",
+      "tour-74-2.jpg",
+      "tour-74-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-28,10:00",
+      "2025-08-12,10:00",
+      "2025-06-03,10:00"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "The Alaska Inside Passage Cruise",
+    "duration": 3,
+    "maxGroupSize": 15,
+    "difficulty": "medium",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 37,
+    "price": 402,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through The Alaska Inside Passage Cruise. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-75-cover.jpg",
+    "images": [
+      "tour-75-1.jpg",
+      "tour-75-2.jpg",
+      "tour-75-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-02,10:00",
+      "2026-01-01,10:00",
+      "2025-06-02,10:00"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Alaskan Wilderness Trek",
+    "duration": 5,
+    "maxGroupSize": 22,
+    "difficulty": "easy",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 27,
+    "price": 2424,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through Alaskan Wilderness Trek. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-76-cover.jpg",
+    "images": [
+      "tour-76-1.jpg",
+      "tour-76-2.jpg",
+      "tour-76-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-16,10:00",
+      "2025-12-06,10:00",
+      "2025-05-12,10:00"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "The African Serengeti Hot Air Balloon Ride",
+    "duration": 4,
+    "maxGroupSize": 11,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 100,
+    "price": 2457,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The African Serengeti Hot Air Balloon Ride. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-77-cover.jpg",
+    "images": [
+      "tour-77-1.jpg",
+      "tour-77-2.jpg",
+      "tour-77-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-28,10:00",
+      "2025-03-08,10:00",
+      "2025-10-15,10:00"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "The Arctic Circle Expedition",
+    "duration": 9,
+    "maxGroupSize": 23,
+    "difficulty": "easy",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 61,
+    "price": 911,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Arctic Circle Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-78-cover.jpg",
+    "images": [
+      "tour-78-1.jpg",
+      "tour-78-2.jpg",
+      "tour-78-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-28,10:00",
+      "2025-11-17,10:00",
+      "2025-02-23,10:00"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "The Indian Himalayas Adventure",
+    "duration": 13,
+    "maxGroupSize": 10,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 34,
+    "price": 1185,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The Indian Himalayas Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-79-cover.jpg",
+    "images": [
+      "tour-79-1.jpg",
+      "tour-79-2.jpg",
+      "tour-79-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-17,10:00",
+      "2025-12-29,10:00",
+      "2025-06-30,10:00"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "The Caribbean Sailing Expedition",
+    "duration": 12,
+    "maxGroupSize": 22,
+    "difficulty": "medium",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 86,
+    "price": 2682,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Caribbean Sailing Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-80-cover.jpg",
+    "images": [
+      "tour-80-1.jpg",
+      "tour-80-2.jpg",
+      "tour-80-3.jpg"
+    ],
+    "startDates": [
+      "2025-05-03,10:00",
+      "2025-12-18,10:00",
+      "2025-04-11,10:00"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "The Norwegian Fjords Exploration",
+    "duration": 6,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 77,
+    "price": 1411,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through The Norwegian Fjords Exploration. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-81-cover.jpg",
+    "images": [
+      "tour-81-1.jpg",
+      "tour-81-2.jpg",
+      "tour-81-3.jpg"
+    ],
+    "startDates": [
+      "2025-12-18,10:00",
+      "2025-11-20,10:00",
+      "2025-08-16,10:00"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "The Wild West Cowboy Experience",
+    "duration": 12,
+    "maxGroupSize": 11,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 79,
+    "price": 2186,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Wild West Cowboy Experience. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-82-cover.jpg",
+    "images": [
+      "tour-82-1.jpg",
+      "tour-82-2.jpg",
+      "tour-82-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-30,10:00",
+      "2025-05-17,10:00",
+      "2025-08-27,10:00"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "The Everest Helicopter Tour",
+    "duration": 4,
+    "maxGroupSize": 12,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 22,
+    "price": 2584,
+    "summary": "A breathtaking journey through nature's most stunning landscapes.",
+    "description": "Join us for an unforgettable journey through The Everest Helicopter Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-83-cover.jpg",
+    "images": [
+      "tour-83-1.jpg",
+      "tour-83-2.jpg",
+      "tour-83-3.jpg"
+    ],
+    "startDates": [
+      "2025-04-25,10:00",
+      "2025-05-19,10:00",
+      "2025-11-22,10:00"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "The Madagascar Wildlife Safari",
+    "duration": 6,
+    "maxGroupSize": 16,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 21,
+    "price": 2423,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The Madagascar Wildlife Safari. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-84-cover.jpg",
+    "images": [
+      "tour-84-1.jpg",
+      "tour-84-2.jpg",
+      "tour-84-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-19,10:00",
+      "2025-10-25,10:00",
+      "2025-05-04,10:00"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Thailand's Hidden Beaches",
+    "duration": 3,
+    "maxGroupSize": 29,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 20,
+    "price": 694,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through Thailand's Hidden Beaches. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-85-cover.jpg",
+    "images": [
+      "tour-85-1.jpg",
+      "tour-85-2.jpg",
+      "tour-85-3.jpg"
+    ],
+    "startDates": [
+      "2025-08-27,10:00",
+      "2025-08-27,10:00",
+      "2025-06-24,10:00"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Antarctica Ice Cruise",
+    "duration": 6,
+    "maxGroupSize": 19,
+    "difficulty": "easy",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 53,
+    "price": 2952,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through Antarctica Ice Cruise. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-86-cover.jpg",
+    "images": [
+      "tour-86-1.jpg",
+      "tour-86-2.jpg",
+      "tour-86-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-12,10:00",
+      "2025-10-17,10:00",
+      "2025-09-30,10:00"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "The Java Volcano Hike",
+    "duration": 14,
+    "maxGroupSize": 16,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 29,
+    "price": 2009,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Java Volcano Hike. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-87-cover.jpg",
+    "images": [
+      "tour-87-1.jpg",
+      "tour-87-2.jpg",
+      "tour-87-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-23,10:00",
+      "2025-04-08,10:00",
+      "2025-09-07,10:00"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Vietnam's Ha Long Bay Kayaking",
+    "duration": 12,
+    "maxGroupSize": 21,
+    "difficulty": "easy",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 24,
+    "price": 876,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through Vietnam's Ha Long Bay Kayaking. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-88-cover.jpg",
+    "images": [
+      "tour-88-1.jpg",
+      "tour-88-2.jpg",
+      "tour-88-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-24,10:00",
+      "2025-03-29,10:00",
+      "2025-02-15,10:00"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "The Serengeti Migration",
+    "duration": 4,
+    "maxGroupSize": 24,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 43,
+    "price": 1579,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Serengeti Migration. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-89-cover.jpg",
+    "images": [
+      "tour-89-1.jpg",
+      "tour-89-2.jpg",
+      "tour-89-3.jpg"
+    ],
+    "startDates": [
+      "2025-03-04,10:00",
+      "2025-11-13,10:00",
+      "2025-07-07,10:00"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "The Grand Canyon Explorer",
+    "duration": 12,
+    "maxGroupSize": 11,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 68,
+    "price": 1295,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Grand Canyon Explorer. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-90-cover.jpg",
+    "images": [
+      "tour-90-1.jpg",
+      "tour-90-2.jpg",
+      "tour-90-3.jpg"
+    ],
+    "startDates": [
+      "2025-09-30,10:00",
+      "2025-06-14,10:00",
+      "2025-02-22,10:00"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "The Chilean Wine Valley Tour",
+    "duration": 4,
+    "maxGroupSize": 10,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 60,
+    "price": 2655,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through The Chilean Wine Valley Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-91-cover.jpg",
+    "images": [
+      "tour-91-1.jpg",
+      "tour-91-2.jpg",
+      "tour-91-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-19,10:00",
+      "2025-07-20,10:00",
+      "2025-02-01,10:00"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Alaskan Wilderness Trek",
+    "duration": 8,
+    "maxGroupSize": 22,
+    "difficulty": "medium",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 10,
+    "price": 2777,
+    "summary": "Capture the beauty of untouched nature on this incredible journey.",
+    "description": "Join us for an unforgettable journey through Alaskan Wilderness Trek. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-92-cover.jpg",
+    "images": [
+      "tour-92-1.jpg",
+      "tour-92-2.jpg",
+      "tour-92-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-02,10:00",
+      "2025-03-14,10:00",
+      "2025-11-14,10:00"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "The Tuscany Vineyard Experience",
+    "duration": 4,
+    "maxGroupSize": 9,
+    "difficulty": "easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 75,
+    "price": 2255,
+    "summary": "Relax and explore the world's most beautiful destinations.",
+    "description": "Join us for an unforgettable journey through The Tuscany Vineyard Experience. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-93-cover.jpg",
+    "images": [
+      "tour-93-1.jpg",
+      "tour-93-2.jpg",
+      "tour-93-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-19,10:00",
+      "2025-02-09,10:00",
+      "2025-05-16,10:00"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "New Zealand's Fiordland Discovery",
+    "duration": 10,
+    "maxGroupSize": 28,
+    "difficulty": "easy",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 92,
+    "price": 1987,
+    "summary": "Unforgettable hikes and explorations across rugged and exotic terrains.",
+    "description": "Join us for an unforgettable journey through New Zealand's Fiordland Discovery. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-94-cover.jpg",
+    "images": [
+      "tour-94-1.jpg",
+      "tour-94-2.jpg",
+      "tour-94-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-17,10:00",
+      "2025-04-29,10:00",
+      "2025-05-12,10:00"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Great Wall of China Expedition",
+    "duration": 13,
+    "maxGroupSize": 30,
+    "difficulty": "difficult",
+    "ratingsAverage": 5.0,
+    "ratingsQuantity": 82,
+    "price": 1996,
+    "summary": "Experience the wonders of wildlife and culture in an immersive adventure.",
+    "description": "Join us for an unforgettable journey through Great Wall of China Expedition. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-95-cover.jpg",
+    "images": [
+      "tour-95-1.jpg",
+      "tour-95-2.jpg",
+      "tour-95-3.jpg"
+    ],
+    "startDates": [
+      "2025-06-15,10:00",
+      "2025-02-23,10:00",
+      "2025-06-21,10:00"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "The Great Ocean Road Adventure",
+    "duration": 11,
+    "maxGroupSize": 10,
+    "difficulty": "easy",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 80,
+    "price": 1181,
+    "summary": "Discover hidden gems and iconic wonders in this extraordinary tour.",
+    "description": "Join us for an unforgettable journey through The Great Ocean Road Adventure. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-96-cover.jpg",
+    "images": [
+      "tour-96-1.jpg",
+      "tour-96-2.jpg",
+      "tour-96-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-06,10:00",
+      "2025-08-27,10:00",
+      "2025-10-19,10:00"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "The Alaskan Glaciers Tour",
+    "duration": 4,
+    "maxGroupSize": 24,
+    "difficulty": "medium",
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 50,
+    "price": 312,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Alaskan Glaciers Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-97-cover.jpg",
+    "images": [
+      "tour-97-1.jpg",
+      "tour-97-2.jpg",
+      "tour-97-3.jpg"
+    ],
+    "startDates": [
+      "2025-11-08,10:00",
+      "2025-09-21,10:00",
+      "2025-08-09,10:00"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "The Gal\u00e1pagos Snorkeling Trip",
+    "duration": 15,
+    "maxGroupSize": 23,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 57,
+    "price": 2472,
+    "summary": "A mix of adventure, relaxation, and cultural exploration.",
+    "description": "Join us for an unforgettable journey through The Gal\u00e1pagos Snorkeling Trip. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-98-cover.jpg",
+    "images": [
+      "tour-98-1.jpg",
+      "tour-98-2.jpg",
+      "tour-98-3.jpg"
+    ],
+    "startDates": [
+      "2025-02-03,10:00",
+      "2025-06-27,10:00",
+      "2025-08-13,10:00"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "The Moroccan Blue City Tour",
+    "duration": 6,
+    "maxGroupSize": 21,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 58,
+    "price": 465,
+    "summary": "Thrilling activities from scuba diving to mountain climbing await!",
+    "description": "Join us for an unforgettable journey through The Moroccan Blue City Tour. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-99-cover.jpg",
+    "images": [
+      "tour-99-1.jpg",
+      "tour-99-2.jpg",
+      "tour-99-3.jpg"
+    ],
+    "startDates": [
+      "2025-10-16,10:00",
+      "2025-03-15,10:00",
+      "2025-04-23,10:00"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "The Rocky Mountains National Park",
+    "duration": 5,
+    "maxGroupSize": 29,
+    "difficulty": "difficult",
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 87,
+    "price": 2290,
+    "summary": "A deep dive into nature, history, and the unique traditions of the region.",
+    "description": "Join us for an unforgettable journey through The Rocky Mountains National Park. Experience stunning landscapes, cultural richness, and thrilling activities. Perfect for adventurers and explorers alike.",
+    "imageCover": "tour-100-cover.jpg",
+    "images": [
+      "tour-100-1.jpg",
+      "tour-100-2.jpg",
+      "tour-100-3.jpg"
+    ],
+    "startDates": [
+      "2025-07-24,10:00",
+      "2025-04-01,10:00",
+      "2025-08-06,10:00"
+    ]
+  }
+]

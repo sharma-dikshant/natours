@@ -19,8 +19,18 @@ mongoose
   });
 
 const data = JSON.parse(
-  fs.readFileSync(`${__dirname}/data/tours-simple.json`, 'utf-8')
+  fs.readFileSync(`${__dirname}/data/tours-100-realistic.json`, 'utf-8')
 );
+
+const dropIndex = (ind) =>
+  Tour.collection
+    .dropIndex(ind)
+    .then(() => {
+      console.log("Unique index on 'name' dropped");
+    })
+    .catch((err) => {
+      console.log('Error dropping index:', err);
+    });
 
 const deleteData = async () => {
   try {
@@ -51,3 +61,5 @@ if (process.argv[2] === '--delete') {
 } else {
   console.log('Please provide a valid command');
 }
+
+// dropIndex('name_1');
