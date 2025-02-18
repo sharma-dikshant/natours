@@ -10,6 +10,10 @@ const tourSchema = mongoose.Schema(
       trim: true,
     },
     slug: String,
+    secretTour: {
+      type: Boolean,
+      default: false,
+    },
     duration: {
       type: Number,
       requried: [true, 'A tour must have a duration'],
@@ -83,6 +87,18 @@ tourSchema.pre('save', function (next) {
 //   console.log(doc);
 //   next();
 // });
+
+//QUERY MIDDLEWARE:
+tourSchema.pre(/^find/, function (next) {
+  this.find({ secretTour: { $ne: true } });
+  this.start = Date.now();
+  next();
+});
+
+tourSchema.post(/^find/, function (docs, next) {
+  console.log(`🕛 Query took ${Date.now() - this.start} milliseconds`);
+  next();
+});
 
 const Tour = mongoose.model('Tour', tourSchema);
 
