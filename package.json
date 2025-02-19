@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "set NODE_ENV=development && npx nodemon server.js",
-    "start:prod": "set NODE_ENV=production && node server.js"
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production && nodemon server.js"
   },
   "author": "dikshant sharma",
   "license": "ISC",
