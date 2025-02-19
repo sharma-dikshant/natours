@@ -20,16 +20,20 @@ mongoose
   .then((con) => {
     console.log('DB connection successful');
     // console.log(con.connections);
-  })
-  .catch((err) => {
-    console.log('DB is not connected', err);
   });
 
 // console.log(app.get('env'));
 // console.log(process.env);
 
-
 const port = process.env.PORT || 4000;
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server is running on port ${port}...`);
+});
+
+process.on('unhandledRejection', (err) => {
+  console.log(err.name, err.message);
+  console.log('UNHANDLED REJECTION! 💥 Shutting down...');
+  server.close(() => {
+    process.exit(1);
+  });
 });
