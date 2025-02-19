@@ -5,6 +5,12 @@ const handleCastErrorDB = (err) => {
   return new AppError(message, 400);
 };
 
+const handleDuplicateFieldsDB = (err) => {
+  const value = err.errmsg.match(/"([^"]*)"/)[0];
+  const message = `Duplicate field value: ${value}.`;
+  return new AppError(message, 400);
+};
+
 const sendErrorProd = (err, res) => {
   // Operational, trusted error: send message to client
   if (err.isOperational) {
@@ -41,6 +47,10 @@ module.exports = (err, req, res, next) => {
     let error = { ...err };
     if (err.name === 'CastError') {
       error = handleCastErrorDB(error); // Handle specific DB errors
+    }
+
+    if (err.code == 11000) {
+      error = handleDuplicateFieldsDB(error);
     }
     sendErrorProd(error, res);
   }
