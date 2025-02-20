@@ -12,6 +12,14 @@ const signToken = (id) => {
   });
 };
 
+const createSendToken = (user, statusCode, res) => {
+  const token = signToken(user._id);
+  res.status(statusCode).json({
+    status: 'success',
+    token,
+  });
+};
+
 exports.signup = catchAsync(async (req, res, next) => {
   const newUser = await User.create({
     name: req.body.name,
@@ -22,14 +30,7 @@ exports.signup = catchAsync(async (req, res, next) => {
     passwordChangedAt: req.body.passwordChangedAt,
   });
 
-  const token = signToken(newUser._id);
-  res.status(201).json({
-    status: 'success',
-    token,
-    data: {
-      user: newUser,
-    },
-  });
+  createSendToken(newUser, 201, res);
 });
 
 exports.login = catchAsync(async (req, res, next) => {
@@ -48,11 +49,8 @@ exports.login = catchAsync(async (req, res, next) => {
   }
 
   //?3) If everything is ok, send token to client
-  const token = signToken(user._id);
-  res.status(200).json({
-    status: 'success',
-    token,
-  });
+
+  createSendToken(user, 200, res);
 });
 
 exports.protect = catchAsync(async (req, res, next) => {
@@ -163,7 +161,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
 
   const user = await User.findOne({
     passwordResetToken: hashedToken,
-    passwordResetToken: {
+    passwordResetExpires: {
       $gt: Date.now(),
     },
   });
@@ -182,12 +180,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   //? 3) UPDATE CHANGEDPASSWORDAT PROPERTY FOR THE USER
   // already done in userModel.js as pre middleware
   //? 4) LOG THE USER IN, SEND JWT
-  const token = signToken(user._id);
-
-  res.status(200).json({
-    status: 'success',
-    token,
-  });
+  createSendToken(user, 200, res);
 });
 
 exports.updatePassword = catchAsync(async (req, res, next) => {
@@ -205,9 +198,5 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   await user.save();
   //? 4) LOG USER IN, SEND JWT
 
-  const token = signToken(user._id);
-  res.status(200).json({
-    status: 'success',
-    token,
-  });
+  createSendToken(user, 200, res);
 });
