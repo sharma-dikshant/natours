@@ -77,7 +77,7 @@ userSchema.methods.changePasswordAfter = function (JWTTimpstamp) {
       this.passwordChangedAt.getTime() / 1000,
       10
     );
-    console.log(changedTimestamp, JWTTimpstamp);
+    // console.log(changedTimestamp, JWTTimpstamp);
 
     return JWTTimpstamp < changedTimestamp;
   }
