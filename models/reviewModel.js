@@ -33,6 +33,21 @@ const rewiewSchema = new mongoose.Schema(
   }
 );
 
+//Query middleware
+rewiewSchema.pre(/^find/, function (next) {
+  this.populate([
+    {
+      path: 'tour',
+      select: 'name',
+    },
+    {
+      path: 'author',
+      select: 'name photo',
+    },
+  ]);
+  next();
+});
+
 const Review = mongoose.model('review', rewiewSchema);
 
 module.exports = Review;
