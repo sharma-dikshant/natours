@@ -48,6 +48,6 @@ rewiewSchema.pre(/^find/, function (next) {
   next();
 });
 
-const Review = mongoose.model('review', rewiewSchema);
+const Review = mongoose.model('Review', rewiewSchema);
 
 module.exports = Review;
