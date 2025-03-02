@@ -14,4 +14,6 @@ router
     reviewHandler.createReview
   );
 
+router.route('/:id').delete(reviewHandler.deleteReview);
+
 module.exports = router;
