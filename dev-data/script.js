@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
-const Tour = require(`${__dirname}/../models/tourModel`);
 const fs = require('fs');
 const dotenv = require('dotenv');
 dotenv.config({ path: './config.env' });
+const Tour = require(`${__dirname}/../models/tourModel`);
+const User = require(`${__dirname}/../models/userModel`);
+const Review = require(`${__dirname}/../models/reviewModel`);
 
 const DB = process.env.DATABASE.replace(
   '<DB_PASSWORD>',
@@ -18,8 +20,14 @@ mongoose
     console.log('DB is not connected', err);
   });
 
-const data = JSON.parse(
-  fs.readFileSync(`${__dirname}/data/tours-100-realistic.json`, 'utf-8')
+const tours = JSON.parse(
+  fs.readFileSync(`${__dirname}/data/tours.json`, 'utf-8')
+);
+const reviews = JSON.parse(
+  fs.readFileSync(`${__dirname}/data/reviews.json`, 'utf-8')
+);
+const users = JSON.parse(
+  fs.readFileSync(`${__dirname}/data/users.json`, 'utf-8')
 );
 
 const dropIndex = (ind) =>
@@ -35,6 +43,8 @@ const dropIndex = (ind) =>
 const deleteData = async () => {
   try {
     await Tour.deleteMany();
+    await User.deleteMany();
+    await Review.deleteMany();
     console.log('Data successfully deleted');
   } catch (err) {
     console.log('ERROR in deleting data', err);
@@ -45,7 +55,9 @@ const deleteData = async () => {
 
 const importData = async () => {
   try {
-    await Tour.create(data);
+    await Tour.create(tours);
+    await User.create(users, { validateBeforeSave: false });
+    await Review.create(reviews);
     console.log('Data successfully loaded');
   } catch (err) {
     console.log('ERROR in importing data', err);
