@@ -5,12 +5,12 @@ const authController = require('./../controller/authController');
 //to get excess to params of previous routes set mergeParams property true
 const router = express.Router({ mergeParams: true });
 
+router.use(authController.protect);
 router
   .route('/')
   .get(reviewHandler.getAllReviews)
   .post(
-    authController.protect,
-    authController.restrictTo('user', 'guide'),
+    authController.restrictTo('user'),
     reviewHandler.setTourUserIds,
     reviewHandler.createReview
   );
@@ -18,7 +18,13 @@ router
 router
   .route('/:id')
   .get(reviewHandler.getReview)
-  .delete(reviewHandler.deleteReview)
-  .patch(reviewHandler.updateReview);
+  .delete(
+    authController.restrictTo('user', 'admin'),
+    reviewHandler.deleteReview
+  )
+  .patch(
+    authController.restrictTo('user', 'admin'),
+    reviewHandler.updateReview
+  );
 
 module.exports = router;
