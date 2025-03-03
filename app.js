@@ -71,7 +71,10 @@ app.use((req, res, next) => {
 
 //routes
 app.get('/', (req, res) => {
-  res.status(200).render('base');
+  res.status(200).render('base', {
+    tour: "The Himanlyan Rides",
+    user: "dikshant"
+  });
 });
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);

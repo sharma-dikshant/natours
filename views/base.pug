@@ -1,1 +1,14 @@
-h1 Welcome to Natours
+doctype html
+html 
+    head
+        title Natours | #{tour}
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="shortcut icon", href="img/favicon.png", type="image/x-icon")
+    body
+        h1= tour 
+        p= user.toUpperCase()
+        //- above is buffered code -> which displays on output
+        - const x = 55
+        p= x * 10
+
+
