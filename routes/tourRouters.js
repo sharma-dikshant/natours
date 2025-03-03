@@ -26,6 +26,7 @@ router
   .route('/')
   .get(tourController.getAllTours)
   .post(
+    authController.protect,
     authController.restrictTo('admin', 'lead-guide'),
     tourController.createTour
   );
