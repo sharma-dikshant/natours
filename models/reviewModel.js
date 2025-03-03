@@ -34,6 +34,10 @@ const rewiewSchema = new mongoose.Schema(
   }
 );
 
+//index
+//this compound index will ensure that the combination of tour and author should be unique for the review
+rewiewSchema.index({ Tour: 1, author: 1 }, { unique: true });
+
 //Query middleware
 rewiewSchema.pre(/^find/, function (next) {
   this.populate([
