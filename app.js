@@ -12,6 +12,7 @@ const globalErrorHandler = require('./controller/errorController');
 const tourRouter = require('./routes/tourRouters');
 const userRouter = require('./routes/userRouters');
 const reviewRouter = require('./routes/reviewRouters');
+const viewRouter = require('./routes/viewRouters');
 
 const app = express();
 
@@ -70,25 +71,7 @@ app.use((req, res, next) => {
 });
 
 //routes
-app.get('/', (req, res) => {
-  res.status(200).render('base', {
-    tour: 'Exiting tours for adventurous people',
-    user: 'dikshant',
-  });
-});
-
-app.get('/overview', (req, res) => {
-  res.status(200).render('overview', {
-    title: 'All tours',
-  });
-});
-
-app.get('/tour', (req, res) => {
-  res.status(200).render('overview', {
-    title: 'The Park Camper',
-  });
-});
-
+app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
