@@ -72,10 +72,23 @@ app.use((req, res, next) => {
 //routes
 app.get('/', (req, res) => {
   res.status(200).render('base', {
-    tour: "The Himanlyan Rides",
-    user: "dikshant"
+    tour: 'Exiting tours for adventurous people',
+    user: 'dikshant',
   });
 });
+
+app.get('/overview', (req, res) => {
+  res.status(200).render('overview', {
+    title: 'All tours',
+  });
+});
+
+app.get('/tour', (req, res) => {
+  res.status(200).render('overview', {
+    title: 'The Park Camper',
+  });
+});
+
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
