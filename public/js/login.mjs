@@ -1,30 +1,27 @@
 /* eslint-disable */
 import axios from 'axios';
+import { showAlert } from './alerts.mjs';
 
 const login = async (email, password) => {
   try {
-    const res = await axios.post(
-      'http://127.0.0.1:3000/api/v1/users/login',
-      {
+    const res = await axios({
+      method: 'POST',
+      url: 'http://127.0.0.1:3000/api/v1/users/login',
+      data: {
         email,
         password,
       },
-      {
-        withCredentials: true,
-      }
-    );
-
-    console.log(res.data);
+    });
 
     if (res.data.status === 'success') {
-      alert('Logged in successfully!');
+      showAlert('success', 'Logged in successfully!');
       setTimeout(() => {
-        location.assign("/");
+        location.assign('/');
       }, 1000);
     }
   } catch (err) {
     console.error('Login error:', err);
-    alert(err.response?.data?.message || 'Login failed!');
+    showAlert('error', err.response.data.message);
   }
 };
 
