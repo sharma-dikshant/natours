@@ -6,6 +6,8 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controller/errorController');
@@ -20,7 +22,6 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 //! 1) GLOBAL MIDDLEWARES
-
 //Set security HTTP headers
 app.use(helmet());
 
@@ -40,7 +41,8 @@ app.use('/api', limiter);
 
 //body parser, reading data from body into req.body
 app.use(express.json({ limit: '10kb' }));
-
+app.use(express.urlencoded({ extended: true, limit: '10kb' }));
+app.use(cookieParser());
 //Data sanitization against NoSQL injection
 app.use(mongoSanitize());
 

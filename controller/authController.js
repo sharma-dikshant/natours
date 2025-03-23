@@ -18,7 +18,6 @@ const createSendToken = (user, statusCode, res) => {
     expires: new Date(
       Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000
     ),
-    secure: true, //cookie will only be sent on encrypted connection
     httpOnly: true, //cookie cannot be accessed or modified in any way by the browser
   };
   if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
@@ -27,10 +26,14 @@ const createSendToken = (user, statusCode, res) => {
   res.cookie('jwt', token, cookieOptions);
 
   //TODO might need to remove password from output and send the user
+  user.password = undefined;
 
   res.status(statusCode).json({
     status: 'success',
     token,
+    data: {
+      user,
+    },
   });
 };
 
@@ -76,6 +79,8 @@ exports.protect = catchAsync(async (req, res, next) => {
   ) {
     token = req.headers.authorization.split(' ')[1];
     // console.log(token);
+  } else if (req.cookies.jwt) {
+    token = req.cookies.jwt;
   }
 
   if (!token) {
@@ -111,6 +116,33 @@ exports.protect = catchAsync(async (req, res, next) => {
 
   //GRANT ACCESS TO PROTECTED ROUTE
   req.user = currentUser;
+  next();
+});
+
+exports.isLoggedIn = catchAsync(async (req, res, next) => {
+  if (req.cookies.jwt) {
+    //? 1) VERIFICATION TOKEN
+    const decoded = await promisify(jwt.verify)(
+      req.cookies.jwt,
+      process.env.JWT_SECRET
+    );
+
+    //? 2) CHECK IF USER STILL EXISTS
+    const currentUser = await User.findById(decoded.id);
+
+    if (!currentUser) {
+      return next();
+    }
+
+    //? 3) CHECK IF USER CHANGED PASSWORD AFTER THE TOKEN WAS ISSUED
+    if (currentUser.changePasswordAfter(decoded.iat)) {
+      return next();
+    }
+
+    // thre is a logged in user
+    res.locals.user = currentUser;
+    return next();
+  }
   next();
 });
 
