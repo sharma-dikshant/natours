@@ -1,9 +1,10 @@
 /* eslint-disable */
 import '@babel/polyfill';
-import { login } from './login.mjs';
+import { login, logout } from './login.mjs';
 
 // DOM ELEMENTS
 const loginForm = document.querySelector('.form');
+const logoutBtn = document.querySelector('.nav__el--logout');
 
 // VALUES
 
@@ -16,6 +17,8 @@ if (loginForm) {
     login(email, password);
   });
 }
+
+if (logoutBtn) logoutBtn.addEventListener('click', logout);
 
 /*
   index.mjs is responsible for getting data from user interface and perform the respective task

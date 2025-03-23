@@ -12587,7 +12587,7 @@ var showAlert = exports.showAlert = function showAlert(type, msg) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.login = void 0;
+exports.logout = exports.login = void 0;
 var _axios = _interopRequireDefault(require("axios"));
 var _alerts = require("./alerts.mjs");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
@@ -12634,6 +12634,37 @@ var login = exports.login = /*#__PURE__*/function () {
   }));
   return function login(_x, _x2) {
     return _ref.apply(this, arguments);
+  };
+}();
+var logout = exports.logout = /*#__PURE__*/function () {
+  var _ref2 = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+    var res;
+    return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+      while (1) switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.prev = 0;
+          _context2.next = 3;
+          return (0, _axios.default)({
+            method: 'GET',
+            url: 'http://127.0.0.1:3000/api/v1/users/logout'
+          });
+        case 3:
+          res = _context2.sent;
+          if (res.data.status === 'success') location.reload(true); // true -> reload from server
+          _context2.next = 10;
+          break;
+        case 7:
+          _context2.prev = 7;
+          _context2.t0 = _context2["catch"](0);
+          (0, _alerts.showAlert)('error', 'Error logging out! Try again.');
+        case 10:
+        case "end":
+          return _context2.stop();
+      }
+    }, _callee2, null, [[0, 7]]);
+  }));
+  return function logout() {
+    return _ref2.apply(this, arguments);
   };
 }();
 
@@ -12776,6 +12807,7 @@ var _login = require("./login.mjs");
 
 // DOM ELEMENTS
 var loginForm = document.querySelector('.form');
+var logoutBtn = document.querySelector('.nav__el--logout');
 
 // VALUES
 
@@ -12788,6 +12820,7 @@ if (loginForm) {
     (0, _login.login)(email, password);
   });
 }
+if (logoutBtn) logoutBtn.addEventListener('click', _login.logout);
 
 /*
   index.mjs is responsible for getting data from user interface and perform the respective task
