@@ -12,8 +12,11 @@ module.exports = class Email {
 
   newTransport() {
     if (process.env.NODE_ENV === 'production') {
-      //TODOsendgrid
-      return 1;
+      //TODO complete sendgrid integration
+      return nodemailer.createTransport({
+        host: process.env.SEND_GRID_HOST,
+        service: 'sendgrid',
+      });
     }
 
     return nodemailer.createTransport({
@@ -43,7 +46,7 @@ module.exports = class Email {
       to: this.to,
       subject,
       html,
-      text: htmlToText.fromString(html),
+      // text: htmlToText.fromString(html),
     };
     // 3) Create a Transport and send Email
     await this.newTransport().sendMail(mailOptions);
@@ -51,5 +54,12 @@ module.exports = class Email {
 
   async sendWelcome() {
     await this.send('welcome', 'Welcome to Natours Family!');
+  }
+
+  async sendPasswordReset() {
+    await this.send(
+      'passwordReset',
+      'reset password token is valid for 10 min!'
+    );
   }
 };
